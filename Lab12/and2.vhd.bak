@@ -1,0 +1,24 @@
+--Company : RIT
+--Author : Chris Larson
+--Created : 24 April 2018
+--Project Name : Lab 12
+--File Name : 
+--Entity : 
+--Architecture : 
+--Tool : VHDL '93
+--Description : 
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity and2 is
+port(A, B : in std_logic;
+     Y : out std_logic);
+end and2;
+
+architecture behv of and2 is
+begin
+process(A, B)
+begin
+	Y <= A AND B after 4 ns;
+end process;
+end;

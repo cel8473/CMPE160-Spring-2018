@@ -1,0 +1,18 @@
+E:/HW12/HW12.vhd {1 {vcom -work work -2002 -explicit -vopt {E:\HW12\HW12.vhd}
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity HW12
+-- Compiling architecture behv of HW12
+
+} {} {}} E:/HW12/HW12_tb.vhd {1 {vcom -work work -2002 -explicit -vopt {E:\HW12\HW12_tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity HW12_tb
+-- Compiling architecture behv of HW12_tb
+-- Loading entity HW12
+
+} {} {}}

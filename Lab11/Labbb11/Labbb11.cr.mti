@@ -1,0 +1,56 @@
+E:/Lab11/tb.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab11/tb.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb
+-- Compiling architecture behv of tb
+-- Loading entity DM74LS153
+
+} {} {}} E:/Lab11/not1.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab11/not1.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not1
+-- Compiling architecture df of not1
+
+} {} {}} E:/Lab11/mux.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab11/mux.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux
+-- Compiling architecture struct of mux
+
+} {} {}} E:/Lab11/and4.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab11/and4.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and4
+-- Compiling architecture df of and4
+
+} {} {}} E:/Lab11/DM74LS153.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab11/DM74LS153.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DM74LS153
+-- Compiling architecture df of DM74LS153
+-- Compiling architecture behv of DM74LS153
+-- Loading entity DM74LS153
+-- Compiling architecture struct of DM74LS153
+-- Loading entity DM74LS153
+
+} {} {}} E:/Lab11/or4.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab11/or4.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or4
+-- Compiling architecture df of or4
+
+} {} {}}

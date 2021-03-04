@@ -1,0 +1,55 @@
+ \documentclass[CMPE]{KGCOEReport}
+
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{kmap}
+\newcommand{\classCode}{CMPE 160}  
+\newcommand{\name}{Christopher Larson}
+\newcommand{\LabSectionNum}{L3}
+\newcommand{\LabInstructor}{Mr.\ Dominguez}	
+\newcommand{\TAs}{Andrew Ramsey \\ Matthew Millar \\ Madeline Mooney}
+\newcommand{\LectureSectionNum}{01}
+\newcommand{\LectureInstructor}{Professor Beato}
+\newcommand{\exerciseNumber}{06}
+\newcommand{\exerciseDescription}{Sequential Circuit Elements }
+\newcommand{\dateDone}{28 February 2018}
+\newcommand{\dateSubmitted}{6 March 2018}
+
+\begin{document}
+\maketitle
+
+\section*{Abstract}
+The objective of this exercise was to design, and implement an active-low enable D latch and a rising edge-triggered, master-slave D flip-flop. An active-low D latch is used to control the output while the enable is low and to leave the output as the last input when the enable is high. A D flip-flop is made by combinining two D latches together and using a controlled CLK signal that changes on a timed interval. A rising edge-triggered flip-flop has two states, one between the rising edges of the clock wave where D changes and one where D remains the same across two rising edges of the clock. A schematic for both the D latch and D flip-flop were designed and tested to see if the design was correct by comparing the waveforms to Table 1 for the D latch and Table 2 for the rising edge-triggered D flip-flop.
+
+\begin{table}[H]
+	\centering
+	\caption{Active-low enable D latch}
+	\label{tab: Table 1}
+	\begin{tabular}{|c|c||c|c|}
+		\hline
+		En & D & Q & Qn\\ \hline
+		0 & 0 & 0 & 1\\ \hline
+		0 & 1 & 1 & 0\\ \hline
+		1 & X & Q & Qn\\ \hline
+		\hline
+	\end{tabular}
+\end{table}
+
+Table 1 is a D latch with an active-low enable.
+
+\begin{table}[H]
+	\centering
+	\caption{Rising edge-triggered D flip-flop}
+	\label{tab: Table 1}
+	\begin{tabular}{|c|c||c|c|}
+		\hline
+		CLK & D & Q & Qn\\ \hline
+		$\uparrow$ & 0 & 1 & 0\\ \hline
+		$\uparrow$ & 1 & 0 & 1\\ \hline
+		Otherwise & X & Q & Qn\\ \hline
+		\hline
+	\end{tabular}
+\end{table}
+
+\end{document}

@@ -1,0 +1,65 @@
+--Company : RIT
+--Author : Chris Larson
+--Created : 24 April 2018
+--Project Name : Lab 12
+--File Name : 
+--Entity : 
+--Architecture : 
+--Tool : VHDL '93
+--Description : 
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity serial_adder is
+  port(in_a, in_b : in std_logic_vector(3 downto 0);
+       cntrl : in std_logic_vector(1 downto 0);
+       clk, clear : in std_logic;
+       sum : out std_logic_vector(3 downto 0);
+       carry : out std_logic); 
+end serial_adder;
+
+architecture struct of serial_adder is
+  component DM74LS194A is 
+	port(a,b,c,d, clk, clear, s0, s1, sL, sR : in std_logic;
+	     qa, qb, qc, qd : out std_logic);
+      end component;
+
+component not1 is
+  port(A : in std_logic;
+       Y : out std_logic);
+      end component;
+
+component and2 is
+  port(A , B : in std_logic;
+       Y : out std_logic);
+     end component;
+       
+component D_FF is
+  port(D, clk, enable, clear : in std_logic;
+	     Q , Qnot : out std_logic);
+      end component;
+      
+component full_adder is 
+	port(A , B, Cin : in std_logic;
+	     Sum, Cout : out std_logic);
+	end component;
+	
+	signal s1, qA1, qA2, qA3, qA4, qB1, qB2, qB3, qB4, s2, s3, Y1, sCarry, QD, QDNot, sumFA , clear_dp: std_logic := '0';
+	
+begin
+  
+  DM74LS194A_instance1 : DM74LS194A port map (A => in_a(3),B => in_a(2), C => in_a(1),D => in_a(0),clk => clk,clear => clear, s0 => cntrl(0),s1 => cntrl(1),sL => '0',sR => sumFA,
+  qa => qA1, qb => qA2, qc => qA3,qd => qA4);
+  
+  DM74LS194A_instance2 : DM74LS194A port map (A => in_b(3),B => in_b(2), C => in_b(1),D => in_b(0),clk => clk,clear => clear, s0 => cntrl(0),s1 => cntrl(1),sL => '0',sR => '0',
+  qa => qB1, qb => qB2, qc => qB3,qd => qB4);
+  
+  not1_instance1 : not1 port map (A => cntrl(1), Y => s3);  
+  and2_instance2 : and2 port map (A => cntrl(0),B => s3, Y => Y1);
+  
+  Sum <= qA1 & qA2 & qA3 & qA4;  
+  D_FF_instance1 : D_FF port map (D => sCarry,clk => clk,clear => clear,enable => Y1,Q => QD, Qnot => QDNot);
+  full_adder_instance1 : full_adder port map (A => qA4,B => qB4,Cin => QD,Sum => sumFA,cout => sCarry);
+  carry <= QD; 
+  
+end;

@@ -1,0 +1,331 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\cel8473\Documents\Lab9
+T_opt
+V[J`JaABZoozS2f;j;9S@:3
+04 10 6 work full_adder struct 1
+=1-00224da0c7db-5abc076e-377-1624
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1d;51
+Z1 dC:\Users\cel8473\Documents\Lab9
+Eand2
+Z2 w1522271074
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\cel8473\Documents\Lab10
+Z6 8C:/Users/cel8473/Documents/Lab10/gates.vhd
+Z7 FC:/Users/cel8473/Documents/Lab10/gates.vhd
+l0
+L18
+V:kJ9bhgX0RETN]zXJSBhb0
+Z8 OL;C;10.1d;51
+32
+Z9 !s108 1522278379.363000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/cel8473/Documents/Lab10/gates.vhd|
+Z11 !s107 C:/Users/cel8473/Documents/Lab10/gates.vhd|
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1
+!s100 md1ODiK_;0O2SPUL5GW3O1
+!i10b 1
+Adf
+R3
+R4
+DEx4 work 4 and2 0 22 :kJ9bhgX0RETN]zXJSBhb0
+32
+l24
+L23
+V9ad3H@hlOM[67<UDQ9o^L0
+R8
+R9
+R10
+R11
+R12
+R13
+!s100 oX1>P6EC>`KXI`FTCLH_Q1
+!i10b 1
+Efull_adder
+Z14 w1522278367
+R3
+R4
+R5
+Z15 8C:/Users/cel8473/Documents/Lab10/FA.vhd
+Z16 FC:/Users/cel8473/Documents/Lab10/FA.vhd
+l0
+L4
+VX5K0V`8[[ZN37ddU8FJ^<1
+R8
+32
+Z17 !s108 1522278378.848000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/cel8473/Documents/Lab10/FA.vhd|
+Z19 !s107 C:/Users/cel8473/Documents/Lab10/FA.vhd|
+R12
+R13
+!s100 zVK2=glBhMnd3g@O7fGeY2
+!i10b 1
+Ablerbler
+R3
+R4
+Z20 DEx4 work 10 full_adder 0 22 X5K0V`8[[ZN37ddU8FJ^<1
+32
+l72
+L58
+VN8dWb;ak:;UYV5F0ab9n^1
+R8
+R17
+R18
+R19
+R12
+R13
+!s100 lo6`i=;S3leNc6;B`DG`h2
+!i10b 1
+Astruct
+R3
+R4
+R20
+32
+l47
+L28
+VCT=`NmzbK6JoLmaLF08<I2
+R8
+R17
+R18
+R19
+R12
+R13
+!s100 P;hnm:NHSX8>noDlnSj6G1
+!i10b 1
+Adf
+R3
+R4
+R20
+32
+l18
+L15
+V5;;1VdoiEGjFK_LzeVTkc3
+R8
+R17
+R18
+R19
+R12
+R13
+!s100 EO6KFjjbc1Nk2SAGP:4N?0
+!i10b 1
+Ehadder
+Z21 w1522278073
+R3
+R4
+R5
+Z22 8C:/Users/cel8473/Documents/Lab10/hadder.vhd
+Z23 FC:/Users/cel8473/Documents/Lab10/hadder.vhd
+l0
+L4
+V>ARSj4e^H^RD3n>:0nB7M1
+R8
+32
+Z24 !s108 1522278380.970000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/cel8473/Documents/Lab10/hadder.vhd|
+Z26 !s107 C:/Users/cel8473/Documents/Lab10/hadder.vhd|
+R12
+R13
+!s100 @>NYMhjz@VV8ANQnXVOlW3
+!i10b 1
+Adf
+R3
+R4
+DEx4 work 6 hadder 0 22 >ARSj4e^H^RD3n>:0nB7M1
+32
+l16
+L13
+V0EU[PD5lR0m[HAHL;M;2h3
+R8
+R24
+R25
+R26
+R12
+R13
+!s100 UHDhCfcFe_Y[Wdb8m_;2d2
+!i10b 1
+Astruct
+R3
+R4
+DEx4 work 6 hadder 0 22 R6D6cN<oNgXT]16OFZ8gb0
+l38
+L24
+VWF5U]=NZ?ca1jinPzeUYg3
+R8
+32
+R25
+R26
+R12
+R13
+w1522276628
+!s108 1522276636.585000
+!s100 NKa9[V_IlN7eWbaAT9Rz?0
+!i10b 1
+Ehalf_adder
+w1522275432
+R3
+R4
+R5
+R22
+R23
+l0
+L4
+V]9912Z@?Y4]AeAzz:19^30
+R8
+32
+R25
+R12
+R13
+R26
+!s100 jCZ38obR@;S0Q3JiQ]>:F0
+!i10b 1
+!s108 1522275459.168000
+Eor2
+Z27 w1522278017
+R3
+R4
+R5
+Z28 8C:/Users/cel8473/Documents/Lab10/or_gate.vhd
+Z29 FC:/Users/cel8473/Documents/Lab10/or_gate.vhd
+l0
+L4
+VC5BeZz5bWJJg0CE[Mim_h0
+R8
+32
+Z30 !s108 1522278381.251000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/cel8473/Documents/Lab10/or_gate.vhd|
+Z32 !s107 C:/Users/cel8473/Documents/Lab10/or_gate.vhd|
+R12
+R13
+!s100 >@E_T_MTMWh1T:bzE8=bF1
+!i10b 1
+Adf
+R3
+R4
+DEx4 work 3 or2 0 22 C5BeZz5bWJJg0CE[Mim_h0
+32
+l10
+L9
+VfLN5[oX=_AmfliZCSH1nk0
+R8
+R30
+R31
+R32
+R12
+R13
+!s100 j7C721Sf7VRnJ3I`aagU_1
+!i10b 1
+Eor3
+R2
+R3
+R4
+R5
+R6
+R7
+l0
+L31
+V^HmME=;V7VcSikfHKhB^H3
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 8iW^18zkUdGGgG3iz9ORH3
+!i10b 1
+Adf
+R3
+R4
+DEx4 work 3 or3 0 22 ^HmME=;V7VcSikfHKhB^H3
+32
+l37
+L36
+VV<5JB4:PDUP@TSUb0I<o61
+R8
+R9
+R10
+R11
+R12
+R13
+!s100 VQ^dzSSj2hn]SdjZ8PERK0
+!i10b 1
+Etb
+Z33 w1522278212
+Z34 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z35 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R3
+R4
+R5
+Z36 8C:/Users/cel8473/Documents/Lab10/tb.vhd
+Z37 FC:/Users/cel8473/Documents/Lab10/tb.vhd
+l0
+L39
+VY59nOoa2B;CHYbnTSZo=L1
+R8
+32
+Z38 !s108 1522278380.034000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/cel8473/Documents/Lab10/tb.vhd|
+Z40 !s107 C:/Users/cel8473/Documents/Lab10/tb.vhd|
+R12
+R13
+!s100 Y6H5K6@B2mRhnlKmfKLK91
+!i10b 1
+Abehavior
+R20
+R34
+R35
+R3
+R4
+DEx4 work 2 tb 0 22 Y59nOoa2B;CHYbnTSZo=L1
+32
+l62
+L42
+VRL[XBki:nF3HQ^AA4ndhJ3
+R8
+R38
+R39
+R40
+R12
+R13
+!s100 ESC0T`i3B58R<]SQMZ:Ji3
+!i10b 1
+Exor3
+R2
+R3
+R4
+R5
+R6
+R7
+l0
+L4
+VT3VK?L`ah^MJ453HLH[]82
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 OdPFWfg2b`f5F=`IOO8lC1
+!i10b 1
+Adf
+R3
+R4
+DEx4 work 4 xor3 0 22 T3VK?L`ah^MJ453HLH[]82
+32
+l10
+L9
+VXm9JJ>CE_YaQ9JJ^j=Bf^2
+R8
+R9
+R10
+R11
+R12
+R13
+!s100 4P=flhf@e7eMi1a0nlolB1
+!i10b 1

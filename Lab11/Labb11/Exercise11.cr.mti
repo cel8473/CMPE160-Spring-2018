@@ -1,0 +1,54 @@
+C:/intelFPGA/17.1/or4.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/17.1/or4.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or4
+-- Compiling architecture df of or4
+
+} {} {}} C:/intelFPGA/17.1/not1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/17.1/not1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not1
+-- Compiling architecture df of not1
+
+} {} {}} C:/intelFPGA/17.1/mux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/17.1/mux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux
+-- Compiling architecture struct of mux
+
+} {} {}} C:/intelFPGA/17.1/tb.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/17.1/tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling architecture behv of tb
+** Error: (vcom-11) Could not find work.tb.
+** Error: C:/intelFPGA/17.1/tb.vhd(4): VHDL Compiler exiting
+
+} {7.0 9.0} {}} C:/intelFPGA/17.1/and4.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/17.1/and4.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and4
+-- Compiling architecture df of and4
+
+} {} {}} C:/intelFPGA/17.1/DM74LS153.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/17.1/DM74LS153.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DM74LS153
+-- Compiling architecture df of DM74LS153
+-- Compiling architecture behv of DM74LS153
+-- Loading entity DM74LS153
+-- Compiling architecture struct of DM74LS153
+-- Loading entity DM74LS153
+
+} {} {}}

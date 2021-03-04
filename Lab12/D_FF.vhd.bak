@@ -1,0 +1,30 @@
+--Company : RIT
+--Author : Chris Larson
+--Created : 24 April 2018
+--Project Name : Lab 12
+--File Name : 
+--Entity : 
+--Architecture : 
+--Tool : VHDL '93
+--Description : 
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity D_FF is 
+	port(D, clk, enable, clear : in std_logic;
+	     Q , Qnot : out std_logic);
+end D_FF;
+
+architecture behv of D_FF is 
+begin
+	process(D, clk, enable, clear)
+	begin
+	if(clear = '0') then
+	    Q <= '0';
+	    Qnot <= '1';
+	elsif(enable = '1') and (rising_edge(clk)) then
+		Q <= D after 6 ns;
+		Qnot <= NOT D after 6 ns;
+	end if;
+	end process;
+end behv;

@@ -1,0 +1,9 @@
+.\objects\exercise12_c.o: Exercise12_C.c
+.\objects\exercise12_c.o: .\RTE\Device\MKL46Z256xxx4\MKL46Z4.h
+.\objects\exercise12_c.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm0plus.h
+.\objects\exercise12_c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\exercise12_c.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\exercise12_c.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\exercise12_c.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\exercise12_c.o: .\RTE\Device\MKL46Z256xxx4\system_MKL46Z4.h
+.\objects\exercise12_c.o: Exercise12_1.h

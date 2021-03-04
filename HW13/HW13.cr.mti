@@ -1,0 +1,43 @@
+E:/DSD-I/HW13/D_T_TB.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/DSD-I/HW13/D_T_TB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity D_T_TB
+-- Compiling architecture behv of D_T_TB
+-- Loading entity T_counter
+-- Loading entity D_counter
+
+} {} {}} E:/DSD-I/HW13/T_counter.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/DSD-I/HW13/T_counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity T_counter
+-- Compiling architecture struct of T_counter
+
+} {} {}} E:/DSD-I/HW13/T_FF.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/DSD-I/HW13/T_FF.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity T_FF
+-- Compiling architecture behv of T_FF
+
+} {} {}} E:/DSD-I/HW13/D_counter.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/DSD-I/HW13/D_counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity D_counter
+-- Compiling architecture struct of D_counter
+
+} {} {}} E:/DSD-I/HW13/D_FF.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/DSD-I/HW13/D_FF.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity D_FF
+-- Compiling architecture behv of D_FF
+
+} {} {}}

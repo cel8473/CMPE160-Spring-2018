@@ -1,0 +1,419 @@
+# Compile of 4bitS_R.vhd was successful.
+# Compile of and2.vhd was successful.
+# Compile of D_FF.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of not1.vhd was successful.
+# Compile of serial_adder.vhd was successful.
+# Compile of serial_adder_tb.vhd was successful.
+# Compile of shift_reg_tb1.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -gui work.tb_dm74ls194a
+# vsim -gui work.tb_dm74ls194a 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_dm74ls194a(behav)#1
+vsim -gui work.serial_adder_tb
+# vsim -gui work.serial_adder_tb 
+# ** Fatal: (vish-9) Problem while writing mpf file "tmpfile".
+# No space left on device. (errno = ENOSPC)
+# 
+vsim -gui work.serial_adder_tb
+# vsim -gui work.serial_adder_tb 
+# ** Fatal: (vish-9) Problem while writing mpf file "tmpfile".
+# No space left on device. (errno = ENOSPC)
+# 
+vsim -gui -novopt work.serial_adder_tb
+# vsim -gui -novopt work.serial_adder_tb 
+# Loading std.standard
+# Refreshing E:/Lab12/work.serial_adder_tb(behv)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.serial_adder_tb(behv)
+# Refreshing E:/Lab12/work.serial_adder(struct)
+# Loading work.serial_adder(struct)
+# Refreshing E:/Lab12/work.dm74ls194a(behv)
+# Loading work.dm74ls194a(behv)
+# Refreshing E:/Lab12/work.and2(behv)
+# Loading work.and2(behv)
+# Refreshing E:/Lab12/work.not1(behv)
+# Loading work.not1(behv)
+# Refreshing E:/Lab12/work.d_ff(behv)
+# Loading work.d_ff(behv)
+# Refreshing E:/Lab12/work.full_adder(behv)
+# Loading work.full_adder(behv)
+# ** Warning: (vsim-8683) Uninitialized out port /serial_adder_tb/UUT/carry has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# 
+# Compile of 4bitS_R.vhd was successful.
+# Compile of and2.vhd was successful.
+# Compile of D_FF.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of not1.vhd was successful.
+# Compile of serial_adder.vhd was successful.
+# Compile of serial_adder_tb.vhd was successful.
+# Compile of shift_reg_tb1.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.serial_adder_tb
+# vsim -gui -novopt work.serial_adder_tb 
+# Loading std.standard
+# Refreshing E:/Lab12/work.serial_adder_tb(behv)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.serial_adder_tb(behv)
+# Refreshing E:/Lab12/work.serial_adder(struct)
+# Loading work.serial_adder(struct)
+# Refreshing E:/Lab12/work.dm74ls194a(behv)
+# Loading work.dm74ls194a(behv)
+# Refreshing E:/Lab12/work.and2(behv)
+# Loading work.and2(behv)
+# Refreshing E:/Lab12/work.not1(behv)
+# Loading work.not1(behv)
+# Refreshing E:/Lab12/work.d_ff(behv)
+# Loading work.d_ff(behv)
+# Refreshing E:/Lab12/work.full_adder(behv)
+# Loading work.full_adder(behv)
+# ** Warning: (vsim-8683) Uninitialized out port /serial_adder_tb/UUT/carry has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# 
+# Compile of full_adder.vhd failed with 9 errors.
+# Compile of full_adder.vhd was successful.
+vsim -gui -novopt work.serial_adder_tb
+# vsim -gui -novopt work.serial_adder_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.serial_adder_tb(behv)
+# Loading work.serial_adder(struct)
+# Loading work.dm74ls194a(behv)
+# Loading work.and2(behv)
+# Loading work.not1(behv)
+# Loading work.d_ff(behv)
+# Refreshing E:/Lab12/work.full_adder(behv)
+# Loading work.full_adder(behv)
+# ** Error: (vsim-3732) E:/Lab12/serial_adder.vhd(51): No default binding for component instance 'full_adder_instance1'.
+# 
+#    The following component port is not on the entity:
+#           Cout
+# 
+#         Region: /serial_adder_tb/UUT/full_adder_instance1
+# Error loading design
+vsim -gui -novopt work.serial_adder_tb
+# vsim -gui -novopt work.serial_adder_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.serial_adder_tb(behv)
+# Loading work.serial_adder(struct)
+# Loading work.dm74ls194a(behv)
+# Loading work.and2(behv)
+# Loading work.not1(behv)
+# Loading work.d_ff(behv)
+# Loading work.full_adder(behv)
+# ** Error: (vsim-3732) E:/Lab12/serial_adder.vhd(51): No default binding for component instance 'full_adder_instance1'.
+# 
+#    The following component port is not on the entity:
+#           Cout
+# 
+#         Region: /serial_adder_tb/UUT/full_adder_instance1
+# Error loading design
+# Compile of serial_adder.vhd failed with 2 errors.
+# Compile of serial_adder.vhd failed with 3 errors.
+# Compile of serial_adder.vhd failed with 2 errors.
+# Compile of serial_adder.vhd failed with 1 errors.
+# Compile of serial_adder.vhd failed with 4 errors.
+# Compile of serial_adder.vhd failed with 2 errors.
+# Compile of serial_adder.vhd failed with 1 errors.
+# Compile of 4bitS_R.vhd was successful.
+# Compile of and2.vhd was successful.
+# Compile of D_FF.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of not1.vhd was successful.
+# Compile of serial_adder.vhd was successful.
+# Compile of serial_adder_tb.vhd was successful.
+# Compile of shift_reg_tb1.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.serial_adder_tb
+# vsim -gui -novopt work.serial_adder_tb 
+# Loading std.standard
+# Refreshing E:/Lab12/work.serial_adder_tb(behv)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.serial_adder_tb(behv)
+# Refreshing E:/Lab12/work.serial_adder(struct)
+# Loading work.serial_adder(struct)
+# Refreshing E:/Lab12/work.dm74ls194a(behv)
+# Loading work.dm74ls194a(behv)
+# Refreshing E:/Lab12/work.and2(behv)
+# Loading work.and2(behv)
+# Refreshing E:/Lab12/work.not1(behv)
+# Loading work.not1(behv)
+# Refreshing E:/Lab12/work.d_ff(behv)
+# Loading work.d_ff(behv)
+# Refreshing E:/Lab12/work.full_adder(behv)
+# Loading work.full_adder(behv)
+# ** Warning: (vsim-8683) Uninitialized out port /serial_adder_tb/UUT/carry has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# 
+vsim -gui -novopt work.serial_adder_tb
+# vsim -gui -novopt work.serial_adder_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.serial_adder_tb(behv)
+# Loading work.serial_adder(struct)
+# Loading work.dm74ls194a(behv)
+# Loading work.and2(behv)
+# Loading work.not1(behv)
+# Loading work.d_ff(behv)
+# Loading work.full_adder(behv)
+# ** Warning: (vsim-8683) Uninitialized out port /serial_adder_tb/UUT/carry has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# 
+vsim -gui -novopt work.serial_adder_tb
+# vsim -gui -novopt work.serial_adder_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.serial_adder_tb(behv)
+# Loading work.serial_adder(struct)
+# Loading work.dm74ls194a(behv)
+# Loading work.and2(behv)
+# Loading work.not1(behv)
+# Loading work.d_ff(behv)
+# Loading work.full_adder(behv)
+# ** Warning: (vsim-8683) Uninitialized out port /serial_adder_tb/UUT/carry has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# 
+# Compile of 4bitS_R.vhd was successful.
+# Compile of and2.vhd was successful.
+# Compile of D_FF.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of not1.vhd was successful.
+# Compile of serial_adder.vhd was successful.
+# Compile of serial_adder_tb.vhd was successful.
+# Compile of shift_reg_tb1.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.serial_adder_tb
+# vsim -gui -novopt work.serial_adder_tb 
+# Loading std.standard
+# Refreshing E:/Lab12/work.serial_adder_tb(behv)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.serial_adder_tb(behv)
+# Refreshing E:/Lab12/work.serial_adder(struct)
+# Loading work.serial_adder(struct)
+# Refreshing E:/Lab12/work.dm74ls194a(behv)
+# Loading work.dm74ls194a(behv)
+# Refreshing E:/Lab12/work.and2(behv)
+# Loading work.and2(behv)
+# Refreshing E:/Lab12/work.not1(behv)
+# Loading work.not1(behv)
+# Refreshing E:/Lab12/work.d_ff(behv)
+# Loading work.d_ff(behv)
+# Refreshing E:/Lab12/work.full_adder(behv)
+# Loading work.full_adder(behv)
+# ** Warning: (vsim-8683) Uninitialized out port /serial_adder_tb/UUT/carry has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# 
+add wave -position insertpoint  \
+sim:/serial_adder_tb/sA \
+sim:/serial_adder_tb/sB \
+sim:/serial_adder_tb/sSum \
+sim:/serial_adder_tb/sCon \
+sim:/serial_adder_tb/sClk \
+sim:/serial_adder_tb/sClear \
+sim:/serial_adder_tb/sCarry \
+sim:/serial_adder_tb/anothername \
+sim:/serial_adder_tb/clk_period
+# Compile of 4bitS_R.vhd was successful.
+# Compile of and2.vhd was successful.
+# Compile of D_FF.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of not1.vhd was successful.
+# Compile of serial_adder.vhd was successful.
+# Compile of serial_adder_tb.vhd was successful.
+# Compile of shift_reg_tb1.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.serial_adder_tb
+# vsim -gui -novopt work.serial_adder_tb 
+# Loading std.standard
+# Refreshing E:/Lab12/work.serial_adder_tb(behv)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.serial_adder_tb(behv)
+# Refreshing E:/Lab12/work.serial_adder(struct)
+# Loading work.serial_adder(struct)
+# Refreshing E:/Lab12/work.dm74ls194a(behv)
+# Loading work.dm74ls194a(behv)
+# Refreshing E:/Lab12/work.and2(behv)
+# Loading work.and2(behv)
+# Refreshing E:/Lab12/work.not1(behv)
+# Loading work.not1(behv)
+# Refreshing E:/Lab12/work.d_ff(behv)
+# Loading work.d_ff(behv)
+# Refreshing E:/Lab12/work.full_adder(behv)
+# Loading work.full_adder(behv)
+# ** Warning: (vsim-8683) Uninitialized out port /serial_adder_tb/UUT/carry has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# 
+# Compile of 4bitS_R.vhd was successful.
+# Compile of and2.vhd was successful.
+# Compile of D_FF.vhd was successful.
+# Compile of full_adder.vhd failed with 1 errors.
+# Compile of not1.vhd was successful.
+# Compile of serial_adder.vhd was successful.
+# Compile of serial_adder_tb.vhd was successful.
+# Compile of shift_reg_tb1.vhd was successful.
+# 8 compiles, 1 failed with 1 error. 
+# Compile of 4bitS_R.vhd was successful.
+# Compile of and2.vhd was successful.
+# Compile of D_FF.vhd was successful.
+# Compile of full_adder.vhd failed with 2 errors.
+# Compile of not1.vhd was successful.
+# Compile of serial_adder.vhd was successful.
+# Compile of serial_adder_tb.vhd was successful.
+# Compile of shift_reg_tb1.vhd was successful.
+# 8 compiles, 1 failed with 2 errors. 
+# Compile of full_adder.vhd failed with 1 errors.
+# Compile of full_adder.vhd was successful with warnings.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of 4bitS_R.vhd was successful.
+# Compile of and2.vhd was successful.
+# Compile of D_FF.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of not1.vhd was successful.
+# Compile of serial_adder.vhd was successful.
+# Compile of serial_adder_tb.vhd was successful.
+# Compile of shift_reg_tb1.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.serial_adder_tb
+# vsim -gui -novopt work.serial_adder_tb 
+# Loading std.standard
+# Refreshing E:/Lab12/work.serial_adder_tb(behv)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.serial_adder_tb(behv)
+# Refreshing E:/Lab12/work.serial_adder(struct)
+# Loading work.serial_adder(struct)
+# Refreshing E:/Lab12/work.dm74ls194a(behv)
+# Loading work.dm74ls194a(behv)
+# Refreshing E:/Lab12/work.and2(behv)
+# Loading work.and2(behv)
+# Refreshing E:/Lab12/work.not1(behv)
+# Loading work.not1(behv)
+# Refreshing E:/Lab12/work.d_ff(behv)
+# Loading work.d_ff(behv)
+# Refreshing E:/Lab12/work.full_adder(behv)
+# Loading work.full_adder(behv)
+# ** Warning: (vsim-8683) Uninitialized out port /serial_adder_tb/UUT/carry has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# 
+# Compile of 4bitS_R.vhd was successful.
+# Compile of and2.vhd was successful.
+# Compile of D_FF.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of not1.vhd was successful.
+# Compile of serial_adder.vhd was successful.
+vsim -gui -novopt work.serial_adder_tb
+# vsim -gui -novopt work.serial_adder_tb 
+# Loading std.standard
+# Refreshing E:/Lab12/work.serial_adder_tb(behv)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.serial_adder_tb(behv)
+# Refreshing E:/Lab12/work.serial_adder(struct)
+# Loading work.serial_adder(struct)
+# Refreshing E:/Lab12/work.dm74ls194a(behv)
+# Loading work.dm74ls194a(behv)
+# Refreshing E:/Lab12/work.and2(behv)
+# Loading work.and2(behv)
+# Refreshing E:/Lab12/work.not1(behv)
+# Loading work.not1(behv)
+# Refreshing E:/Lab12/work.d_ff(behv)
+# Loading work.d_ff(behv)
+# Refreshing E:/Lab12/work.full_adder(behv)
+# Loading work.full_adder(behv)
+# ** Warning: (vsim-8683) Uninitialized out port /serial_adder_tb/UUT1/carry has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# 
+# Compile of serial_adder_tb.vhd was successful.
+# Compile of shift_reg_tb1.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+# Compile of 4bitS_R.vhd was successful.
+# Compile of and2.vhd was successful.
+# Compile of D_FF.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of not1.vhd was successful.
+# Compile of serial_adder.vhd was successful.
+# Compile of serial_adder_tb.vhd was successful.
+# Compile of shift_reg_tb1.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+# Compile of 4bitS_R.vhd was successful.
+# Compile of and2.vhd was successful.
+# Compile of D_FF.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of not1.vhd was successful.
+# Compile of serial_adder.vhd was successful.
+# Compile of serial_adder_tb.vhd was successful.
+# Compile of shift_reg_tb1.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+# Load canceled
+# Compile of 4bitS_R.vhd was successful.
+# Compile of and2.vhd was successful.
+# Compile of D_FF.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of not1.vhd was successful.
+# Compile of serial_adder.vhd was successful.
+# Compile of serial_adder_tb.vhd was successful.
+# Compile of shift_reg_tb1.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.serial_adder_tb
+# vsim -gui -novopt work.serial_adder_tb 
+# Loading std.standard
+# Refreshing E:/Lab12/work.serial_adder_tb(behv)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.serial_adder_tb(behv)
+# Refreshing E:/Lab12/work.serial_adder(struct)
+# Loading work.serial_adder(struct)
+# Refreshing E:/Lab12/work.dm74ls194a(behv)
+# Loading work.dm74ls194a(behv)
+# Refreshing E:/Lab12/work.and2(behv)
+# Loading work.and2(behv)
+# Refreshing E:/Lab12/work.not1(behv)
+# Loading work.not1(behv)
+# Refreshing E:/Lab12/work.d_ff(behv)
+# Loading work.d_ff(behv)
+# Refreshing E:/Lab12/work.full_adder(behv)
+# Loading work.full_adder(behv)
+# ** Warning: (vsim-8683) Uninitialized out port /serial_adder_tb/UUT1/carry has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# 

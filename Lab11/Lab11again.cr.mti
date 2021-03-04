@@ -1,0 +1,37 @@
+E:/Lab11/tb.vhd {0 {vcom -work work -2002 -explicit -vopt E:/Lab11/tb.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+** Error: (vcom-42) Unsupported ModelSim library format for "E:/Lab11/work". (Format: 4)
+
+** Error: VHDL Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} E:/Lab11/not1.vhd {0 {vcom -work work -2002 -explicit -vopt E:/Lab11/not1.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+** Error: (vcom-42) Unsupported ModelSim library format for "E:/Lab11/work". (Format: 4)
+
+** Error: VHDL Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} E:/Lab11/mux.vhd {0 {vcom -work work -2002 -explicit -vopt E:/Lab11/mux.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+** Error: (vcom-42) Unsupported ModelSim library format for "E:/Lab11/work". (Format: 4)
+
+** Error: VHDL Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} E:/Lab11/and4.vhd {0 {vcom -work work -2002 -explicit -vopt E:/Lab11/and4.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+** Error: (vcom-42) Unsupported ModelSim library format for "E:/Lab11/work". (Format: 4)
+
+** Error: VHDL Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} E:/Lab11/DM74LS153.vhd {0 {vcom -work work -2002 -explicit -vopt E:/Lab11/DM74LS153.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+** Error: (vcom-42) Unsupported ModelSim library format for "E:/Lab11/work". (Format: 4)
+
+** Error: VHDL Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} E:/Lab11/or4.vhd {0 {vcom -work work -2002 -explicit -vopt E:/Lab11/or4.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+** Error: (vcom-42) Unsupported ModelSim library format for "E:/Lab11/work". (Format: 4)
+
+** Error: VHDL Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}}

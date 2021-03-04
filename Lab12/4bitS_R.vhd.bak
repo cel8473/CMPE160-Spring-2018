@@ -1,0 +1,38 @@
+--Company : RIT
+--Author : Chris Larson
+--Created : 24 April 2018
+--Project Name : Lab 12
+--File Name : 
+--Entity : 
+--Architecture : 
+--Tool : VHDL '93
+--Description : 
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity DM74LS194A is 
+	port(a,b,c,d, clk, clear, s0, s1, sL, sR : in std_logic;
+	     qa, qb, qc, qd : out std_logic);
+end DM74LS194A;
+
+architecture behv of DM74LS194A is
+signal sreg : std_logic_vector(3 downto 0);
+begin
+(qa, qb, qc, qd) <= sreg after 22 ns;
+
+process(clear, clk)
+variable vmode : std_logic_vector(1 downto 0);
+begin
+	vmode:= s1 & s0;
+	if clear = '0' then
+		sreg <= (others=>'0');
+	elsif(rising_edge(clk)) then
+		case vmode is
+			when "00" => sreg <= sreg;
+			when "01" => sreg <= sR & sreg(3 downto 1);
+			when "10" => sreg <= sreg(2 downto 0) & sL;
+			when others => sreg <= a & b & c & d;
+		end case;
+	end if;
+end process;
+end architecture;

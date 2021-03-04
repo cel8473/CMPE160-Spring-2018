@@ -1,0 +1,135 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\MentorGraphics\examples
+T_opt
+V<_jea7YYba?T@zh>48DR@1
+04 4 8 work lab7 bdf_type 1
+=1-00224da1a266-5a91c75f-3cc-4154
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1d;51
+Z3 dC:\MentorGraphics\examples
+T_opt1
+V<RWD3LizXFC_YMASV1KW>2
+04 6 10 work ex7_tb test_bench 1
+=1-00224da1a266-5a91ca96-36-5008
+R1
+n@_opt1
+R2
+R3
+T_opt2
+Vano:EMT1IGXnfFl0oKi3C1
+04 3 8 work ex7 bdf_type 1
+=1-00224da1a266-5a91ddc0-360-3f9c
+R1
+n@_opt2
+R2
+Eex7
+Z4 w1519508672
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 dF:\Lab7
+Z8 8F:/Lab7/Ex7.vhd
+Z9 FF:/Lab7/Ex7.vhd
+l0
+L24
+VGUkG2C1DVTekSl=0FHRJh3
+Z10 OL;C;10.1d;51
+32
+Z11 !s108 1519508673.504000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|F:/Lab7/Ex7.vhd|
+Z13 !s107 F:/Lab7/Ex7.vhd|
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1
+!s100 IXCGN=j?e[8KMR3Ag[W^>0
+!i10b 1
+Abdf_type
+R5
+R6
+DEx4 work 3 ex7 0 22 GUkG2C1DVTekSl=0FHRJh3
+l44
+L34
+V]?[5^IOKG[:[kF:8R@2j?0
+R10
+32
+R11
+R12
+R13
+R14
+R15
+!s100 XH90EgT4hPde[2jo8=6Y20
+!i10b 1
+Eex7_tb
+Z16 w1519503812
+Z17 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R5
+R6
+R7
+Z18 8F:/Lab7/ex7_tb.vhd
+Z19 FF:/Lab7/ex7_tb.vhd
+l0
+L12
+V8O^JEckKzPReYkbFE2`>`3
+R10
+32
+Z20 !s108 1519508674.491000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|F:/Lab7/ex7_tb.vhd|
+Z22 !s107 F:/Lab7/ex7_tb.vhd|
+R14
+R15
+!s100 ll[KLbd_4if4A[zM:e6TY2
+!i10b 1
+Atest_bench
+R17
+R5
+R6
+DEx4 work 6 ex7_tb 0 22 8O^JEckKzPReYkbFE2`>`3
+l36
+L15
+VA=iA6Vm?cBbG7kegS:7:42
+!s100 CB8>69Nl=m1FLSYV5UQHQ2
+R10
+32
+R20
+R21
+R22
+R14
+R15
+!i10b 1
+Elab7
+Z23 w1519504110
+R5
+R6
+R7
+R8
+R9
+l0
+L24
+V8DmJha4ka6RYjal4eheDf1
+R10
+32
+Z24 !s108 1519504180.528000
+R12
+R13
+R14
+R15
+!s100 8`EYIlNHKRd2cMiVEG0Rl3
+!i10b 1
+Abdf_type
+R5
+R6
+DEx4 work 4 lab7 0 22 8DmJha4ka6RYjal4eheDf1
+l44
+L34
+VMhIXka5=k83OW>@6PYiD[3
+R10
+32
+R24
+R12
+R13
+R14
+R15
+!s100 XT6:amI:zlIRFInmnaDM^1
+!i10b 1

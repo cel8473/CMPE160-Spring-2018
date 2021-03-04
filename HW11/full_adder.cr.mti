@@ -1,0 +1,60 @@
+C:/intelFPGA/17.1/HW11/and2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/17.1/HW11/and2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and2
+-- Compiling architecture df of and2
+
+} {} {}} C:/intelFPGA/17.1/HW11/full_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/17.1/HW11/full_adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity full_adder
+-- Compiling architecture struct of full_adder
+
+} {} {}} C:/intelFPGA/17.1/HW11/four_bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/17.1/HW11/four_bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity four_bit
+-- Compiling architecture struct of four_bit
+
+} {} {}} C:/intelFPGA/17.1/HW11/tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/17.1/HW11/tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb
+-- Compiling architecture behv of tb
+-- Loading entity four_bit
+
+} {} {}} C:/intelFPGA/17.1/HW11/xor2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/17.1/HW11/xor2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor2
+-- Compiling architecture df of xor2
+
+} {} {}} C:/intelFPGA/17.1/HW11/xor3.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/17.1/HW11/xor3.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor3
+-- Compiling architecture df of xor3
+
+} {} {}} C:/intelFPGA/17.1/HW11/or3.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/17.1/HW11/or3.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or3
+-- Compiling architecture df of or3
+
+} {} {}}

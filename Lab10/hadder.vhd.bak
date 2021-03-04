@@ -1,0 +1,22 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity hadder is
+	port(
+	A	: in std_logic;
+	B	: in std_logic;
+	
+	Sum : out std_logic;
+	Cout : out std_logic);
+	end hadder;
+	
+architecture df of hadder is 
+
+  signal s_1, s_2 : std_logic:='0';
+begin 
+  Sum <= A XOR B;
+  
+  s_1 <= A AND B;
+  
+  Cout <= s_1;
+end;

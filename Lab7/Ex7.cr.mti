@@ -1,0 +1,35 @@
+E:/Lab7/ex7_tb.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab7/ex7_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ex7_tb
+-- Compiling architecture test_bench of ex7_tb
+
+} {} {}} F:/Lab7/Ex7.vhd {1 {vcom -work work -2002 -explicit -vopt F:/Lab7/Ex7.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Ex7
+-- Compiling architecture bdf_type of Ex7
+
+} {} {}} F:/Lab7/ex7_tb.vhd {1 {vcom -work work -2002 -explicit -vopt F:/Lab7/ex7_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ex7_tb
+-- Compiling architecture test_bench of ex7_tb
+
+} {} {}} E:/Lab7/Ex7.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab7/Ex7.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Ex7
+-- Compiling architecture bdf_type of Ex7
+
+} {} {}}

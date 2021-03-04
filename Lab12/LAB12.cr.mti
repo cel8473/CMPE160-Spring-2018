@@ -1,0 +1,93 @@
+E:/Lab12/SM_SR_TB.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab12/SM_SR_TB.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SM_SR_TB
+-- Compiling architecture behv of SM_SR_TB
+
+} {} {}} E:/Lab12/and2.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab12/and2.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and2
+-- Compiling architecture behv of and2
+
+} {} {}} E:/Lab12/shift_reg_tb1.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab12/shift_reg_tb1.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_DM74LS194A
+-- Compiling architecture behav of tb_DM74LS194A
+
+} {} {}} E:/Lab12/full_adder.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab12/full_adder.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity full_adder
+-- Compiling architecture behv of full_adder
+
+} {} {}} E:/Lab12/not1.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab12/not1.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not1
+-- Compiling architecture behv of not1
+
+} {} {}} E:/Lab12/S_M.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab12/S_M.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity S_M
+-- Compiling architecture behv of S_M
+
+} {} {}} E:/Lab12/SM_SA.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab12/SM_SA.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SM_SA
+-- Compiling architecture struct of SM_SA
+
+} {} {}} E:/Lab12/4bitS_R.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab12/4bitS_R.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DM74LS194A
+-- Compiling architecture behv of DM74LS194A
+
+} {} {}} E:/Lab12/D_FF.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab12/D_FF.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity D_FF
+-- Compiling architecture behv of D_FF
+
+} {} {}} E:/Lab12/serial_adder.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab12/serial_adder.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity serial_adder
+-- Compiling architecture struct of serial_adder
+
+} {} {}} E:/Lab12/serial_adder_tb.vhd {1 {vcom -work work -2002 -explicit -vopt E:/Lab12/serial_adder_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity serial_adder_tb
+-- Compiling architecture behv of serial_adder_tb
+
+} {} {}}

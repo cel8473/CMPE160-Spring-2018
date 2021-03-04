@@ -1,0 +1,21 @@
+# Reading C:/intelFPGA/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project Lab6
+vsim -gui work.lab6
+# vsim -gui work.lab6 
+# Start time: 18:57:59 on Feb 20,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.lab6(bdf_type)
+add wave -position insertpoint  \
+sim:/lab6/X \
+sim:/lab6/Y \
+sim:/lab6/Cin \
+sim:/lab6/Cout \
+sim:/lab6/Sum
+do force.txt
+run
+run
+restart
+do force.txt
+run

@@ -1,0 +1,2 @@
+force D 0 0ns,1 100ns,0 200ns,1 300ns,0 400ns
+force EN 1 0ns,0 50ns,1 150ns,0 250ns,1 350ns

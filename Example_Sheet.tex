@@ -1,0 +1,70 @@
+\documentclass[11pt]{article}
+\usepackage[margin-1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\begin{document}
+\begin{table}[II]
+	\centering
+	\caption{Put the descriptive table caption here}
+	\label{tab:MyAwesomeTableLabel}
+	\begin{tabular}{lcr}
+		Col 1 & Col 2 & Col 3 \\ \hline
+		Hello & This is a cell & Tableee\\
+		Wheee & Very Important Information & Yes\\
+		Row 1 & Row 2 & Row 3\\
+	\end{tabular}
+\end{table}
+
+\begin{figure}[II]
+	\centering
+	\includegraphics[width=0.35\textwidth]{somecatCrookshanks}
+		->extension necessary
+	\caption{This is some cat, Crookshanks}
+	\label{fig:myAwesomeImageLAbel}
+\end{figure}
+
+\begin{equation}
+	\overline{A + B} - \overline{A}\,\overline{B}
+	\label{eq:SuperEQ}
+\end{equation}
+
+\begin{enumerate}
+	\item The 1st item
+	\item The 2nd item
+	\item
+		\begin{enumerate}
+			\item Nested is useful
+			\item More nesting?
+		\end{enumerate}
+\end{enumerate}
+
+\begin{table}[II]
+	\cetnering
+	\caption{A Table with Multi Columns}
+	\label{tab:MultiColTable}
+	\begin{tabular{lcr}
+		\multilcolumn{2}{c}{Col 1 anD 2} & \\ \cline{1-2}
+		Col 1 & Col 2 & Col 3 \\ \hline
+		Hello & This is a cell & Tableee\\
+		Wheee & Very Important Information & Yes\\
+		Row 1 & Row 2 & Row 3\\
+	\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+	\centering
+	\begin{Karnaugh}
+	\content{0,1,0,0,1,0,1,1,0,1,0,0,0,0,1,1}
+	\implicantLateral[2pt]{4}{6}{green}
+	\implicant{7}{14}{green}
+	\implicantTopBottom{1}{9}{red}
+	\end{Karnaugh}
+	\caption{A K-Map}
+	\label{fig:MyKMAp|
+\end{figure}
+
+\newpage
+\LARGE
+\medskip		
+
+\end{document}

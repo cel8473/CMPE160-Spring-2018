@@ -1,0 +1,84 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\MentorGraphics\examples
+T_opt
+V5fKIL9FBJmMkWQ<P6`LG72
+04 7 4 work hw12_tb behv 1
+=1-00224da1a1c8-5ad75a8c-342-1990
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1d;51
+Z1 dC:\MentorGraphics\examples
+Ehw12
+Z2 w1524063452
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dE:\HW12
+Z6 8E:\HW12\HW12.vhd
+Z7 FE:\HW12\HW12.vhd
+l0
+L4
+VD<G^UgTfiW<IU1UOGYJGP3
+Z8 OL;C;10.1d;51
+32
+Z9 !s108 1524063452.937000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|E:\HW12\HW12.vhd|
+Z11 !s107 E:\HW12\HW12.vhd|
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1
+!s100 6;Z[>4HlkH>I_?7W?2L]z2
+!i10b 1
+Abehv
+R3
+R4
+Z14 DEx4 work 4 hw12 0 22 D<G^UgTfiW<IU1UOGYJGP3
+32
+l12
+L9
+VNJk4_MWc>Knc[0BfnUMZN1
+R8
+R9
+R10
+R11
+R12
+R13
+!s100 _0AO5`YUaVV050kO1Jh8h3
+!i10b 1
+Ehw12_tb
+Z15 w1524018080
+R3
+R4
+R5
+Z16 8E:\HW12\HW12_tb.vhd
+Z17 FE:\HW12\HW12_tb.vhd
+l0
+L4
+V@GBD@XaKR@b6Ln^AEONfC1
+R8
+32
+Z18 !s108 1524063453.905000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|E:\HW12\HW12_tb.vhd|
+Z20 !s107 E:\HW12\HW12_tb.vhd|
+R12
+R13
+!s100 MQJKdnA59Dnc_OE`hQk<d3
+!i10b 1
+Abehv
+R14
+R3
+R4
+DEx4 work 7 hw12_tb 0 22 @GBD@XaKR@b6Ln^AEONfC1
+32
+l20
+L7
+VIKm1fZJYWR7=1NDKP8RiN2
+R8
+R18
+R19
+R20
+R12
+R13
+!s100 JEJb@HcSXJ^B=M8X=X;_j2
+!i10b 1

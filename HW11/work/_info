@@ -1,0 +1,288 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/17.1
+Eand2
+Z0 w1523246120
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/intelFPGA/17.1/HW11
+Z4 8C:/intelFPGA/17.1/HW11/and2.vhd
+Z5 FC:/intelFPGA/17.1/HW11/and2.vhd
+l0
+L4
+VFTQg<Q<SZJicS:Gn402SF3
+!s100 >onjMGk@b[WIBAd^je0YT2
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1523252515
+!i10b 1
+Z8 !s108 1523252515.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/17.1/HW11/and2.vhd|
+Z10 !s107 C:/intelFPGA/17.1/HW11/and2.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Adf
+R1
+R2
+DEx4 work 4 and2 0 22 FTQg<Q<SZJicS:Gn402SF3
+l10
+L9
+VPU>VA<d]do7>0]6j73:m=3
+!s100 E2WoMCUiFdlb9MAn>XPf]2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efour_bit
+Z13 w1523247935
+R1
+R2
+R3
+Z14 8C:/intelFPGA/17.1/HW11/four_bit.vhd
+Z15 FC:/intelFPGA/17.1/HW11/four_bit.vhd
+l0
+L4
+VcH;>Jen6`R8MzcWK^hAMf0
+!s100 I>I6JPb:0:h^4PWEKJAJl1
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/17.1/HW11/four_bit.vhd|
+Z17 !s107 C:/intelFPGA/17.1/HW11/four_bit.vhd|
+!i113 1
+R11
+R12
+Astruct
+R1
+R2
+Z18 DEx4 work 8 four_bit 0 22 cH;>Jen6`R8MzcWK^hAMf0
+l23
+L10
+V3T8ZXPADY48ITAz[hB1H@1
+!s100 9na2;NK9HHA2oPWSO[gc50
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Efull_adder
+Z19 w1523246253
+R1
+R2
+R3
+Z20 8C:/intelFPGA/17.1/HW11/full_adder.vhd
+Z21 FC:/intelFPGA/17.1/HW11/full_adder.vhd
+l0
+L4
+VF^A2o1=;Kn[:BSR0G=[L[2
+!s100 5jR;?^YbIKL5h>1zKmThY3
+R6
+32
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/17.1/HW11/full_adder.vhd|
+Z23 !s107 C:/intelFPGA/17.1/HW11/full_adder.vhd|
+!i113 1
+R11
+R12
+Astruct
+R1
+R2
+DEx4 work 10 full_adder 0 22 F^A2o1=;Kn[:BSR0G=[L[2
+l26
+L9
+V_F4jMBmHGg]Z2LPI5A7n33
+!s100 h1^5D[CTV2oM]BZUjG=_I2
+R6
+32
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Eor3
+Z24 w1523246116
+R1
+R2
+R3
+Z25 8C:/intelFPGA/17.1/HW11/or3.vhd
+Z26 FC:/intelFPGA/17.1/HW11/or3.vhd
+l0
+L4
+Vai2kOok:kYnEJ@96bFH733
+!s100 MLW]6T;KcP5ZjQdGkbY?C3
+R6
+32
+R7
+!i10b 1
+R8
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/17.1/HW11/or3.vhd|
+Z28 !s107 C:/intelFPGA/17.1/HW11/or3.vhd|
+!i113 1
+R11
+R12
+Adf
+R1
+R2
+DEx4 work 3 or3 0 22 ai2kOok:kYnEJ@96bFH733
+l10
+L9
+VmmDLJA9<7CHnf2HfzQjYi2
+!s100 IcFNFbaL[jBk5^e<a5k852
+R6
+32
+R7
+!i10b 1
+R8
+R27
+R28
+!i113 1
+R11
+R12
+Etb
+Z29 w1523252490
+Z30 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z31 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+R3
+Z32 8C:/intelFPGA/17.1/HW11/tb.vhd
+Z33 FC:/intelFPGA/17.1/HW11/tb.vhd
+l0
+L5
+VVQ^BPFO=MWzIF67kDIP[D3
+!s100 ni24gHCiWf@HP1DHMZfQF2
+R6
+32
+R7
+!i10b 1
+R8
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/17.1/HW11/tb.vhd|
+Z35 !s107 C:/intelFPGA/17.1/HW11/tb.vhd|
+!i113 1
+R11
+R12
+Abehv
+R18
+R30
+R31
+R1
+R2
+Z36 DEx4 work 2 tb 0 22 VQ^BPFO=MWzIF67kDIP[D3
+l31
+L8
+VK=L:>=SPN4hhjS_OoFmYF0
+!s100 mdd=hM9]gZ3NWmZDD]4[>0
+R6
+32
+R7
+!i10b 1
+R8
+R34
+R35
+!i113 1
+R11
+R12
+Exor2
+Z37 w1523246122
+R1
+R2
+R3
+Z38 8C:/intelFPGA/17.1/HW11/xor2.vhd
+Z39 FC:/intelFPGA/17.1/HW11/xor2.vhd
+l0
+L4
+V^KIEANj[Tg@U_P<beiJ@M3
+!s100 IA8@XkAm>S9_5eWRd?4@K3
+R6
+32
+R7
+!i10b 1
+Z40 !s108 1523252514.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/17.1/HW11/xor2.vhd|
+Z42 !s107 C:/intelFPGA/17.1/HW11/xor2.vhd|
+!i113 1
+R11
+R12
+Adf
+R1
+R2
+DEx4 work 4 xor2 0 22 ^KIEANj[Tg@U_P<beiJ@M3
+l10
+L9
+VnKBCfM]InlGJomT;38Rfc1
+!s100 Bii9R>`MPHdQQTN3mJefZ0
+R6
+32
+R7
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R11
+R12
+Exor3
+Z43 w1523251336
+R1
+R2
+R3
+Z44 8C:/intelFPGA/17.1/HW11/xor3.vhd
+Z45 FC:/intelFPGA/17.1/HW11/xor3.vhd
+l0
+L4
+VkUERU=fGfe^ZcGHz7:a@@3
+!s100 ^]mBeT[DI7?=`jWjc0B1E2
+R6
+32
+R7
+!i10b 1
+R8
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/17.1/HW11/xor3.vhd|
+Z47 !s107 C:/intelFPGA/17.1/HW11/xor3.vhd|
+!i113 1
+R11
+R12
+Adf
+R1
+R2
+DEx4 work 4 xor3 0 22 kUERU=fGfe^ZcGHz7:a@@3
+l10
+L9
+VlO3Ef@_gH[kWDU0al>4:J0
+!s100 BfLg:MP]Q_>Tkod[9mc260
+R6
+32
+R7
+!i10b 1
+R8
+R46
+R47
+!i113 1
+R11
+R12

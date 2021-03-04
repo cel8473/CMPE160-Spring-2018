@@ -1,0 +1,135 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\MentorGraphics\examples
+T_opt
+V=k[jE6CPM3;JBEj0:P_IM3
+04 6 10 work ex7_tb test_bench 1
+=1-00224da0c7db-5a97335a-24e-2e08
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1d;51
+T_opt1
+VQbd9[i@dLUZjnJVQbzFl72
+04 4 8 work lab7 bdf_type 1
+=1-00224da0c7db-5a947d18-3b4-598
+R1
+n@_opt1
+R2
+Z3 dC:\MentorGraphics\examples
+T_opt2
+Vano:EMT1IGXnfFl0oKi3C1
+04 3 8 work ex7 bdf_type 1
+=1-00224da1a266-5a91ddc0-360-3f9c
+R1
+n@_opt2
+R2
+R3
+Eex7
+Z4 w1519858458
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 dE:\Lab7
+Z8 8E:/Lab7/Ex7.vhd
+Z9 FE:/Lab7/Ex7.vhd
+l0
+L24
+VdaRJU9SOJO8hORADU6dE31
+Z10 OL;C;10.1d;51
+32
+Z11 !s108 1519858513.749000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|E:/Lab7/Ex7.vhd|
+Z13 !s107 E:/Lab7/Ex7.vhd|
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1
+!s100 ^[N8mVn[?ELd5:2g843fJ1
+!i10b 1
+Abdf_type
+R5
+R6
+DEx4 work 3 ex7 0 22 daRJU9SOJO8hORADU6dE31
+l50
+L34
+VYc7>=HFnQ?lWzP^]9NU9E0
+R10
+32
+R11
+R12
+R13
+R14
+R15
+!s100 fdRF[L0`B=elM?0QRKYBH3
+!i10b 1
+Eex7_tb
+Z16 w1519503812
+Z17 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R5
+R6
+R7
+Z18 8E:/Lab7/ex7_tb.vhd
+Z19 FE:/Lab7/ex7_tb.vhd
+l0
+L12
+V8O^JEckKzPReYkbFE2`>`3
+R10
+32
+Z20 !s108 1519858516.063000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|E:/Lab7/ex7_tb.vhd|
+Z22 !s107 E:/Lab7/ex7_tb.vhd|
+R14
+R15
+!s100 ll[KLbd_4if4A[zM:e6TY2
+!i10b 1
+Atest_bench
+R17
+R5
+R6
+DEx4 work 6 ex7_tb 0 22 8O^JEckKzPReYkbFE2`>`3
+l36
+L15
+VA=iA6Vm?cBbG7kegS:7:42
+R10
+32
+R20
+R21
+R22
+R14
+R15
+!s100 CB8>69Nl=m1FLSYV5UQHQ2
+!i10b 1
+Elab7
+Z23 w1519680628
+R5
+R6
+R7
+Z24 8E:/Lab7/Lab7.vhd
+Z25 FE:/Lab7/Lab7.vhd
+l0
+L24
+VZGjdO5Z;ceM2oR_^mJSif3
+R10
+32
+Z26 !s108 1519680783.728000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|E:/Lab7/Lab7.vhd|
+Z28 !s107 E:/Lab7/Lab7.vhd|
+R14
+R15
+!s100 f_GJZi32@Bfa9QVUeVCV<1
+!i10b 1
+Abdf_type
+R5
+R6
+DEx4 work 4 lab7 0 22 ZGjdO5Z;ceM2oR_^mJSif3
+l44
+L34
+VeO@NC8zajdG8k^gC6^^bf3
+R10
+32
+R26
+R27
+R28
+R14
+R15
+!s100 ZkBRFi`<bI8d=KJ^<08W:0
+!i10b 1

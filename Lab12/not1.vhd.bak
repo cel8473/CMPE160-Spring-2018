@@ -1,0 +1,24 @@
+--Company : RIT
+--Author : Chris Larson
+--Created : 24 April 2018
+--Project Name : Lab 12
+--File Name : 
+--Entity : 
+--Architecture : 
+--Tool : VHDL '93
+--Description : 
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity not1 is
+port(A : in std_logic;
+     Y : out std_logic);
+end not1;
+
+architecture behv of not1 is
+begin 
+process(A)
+begin
+	Y <= NOT A after 2 ns;
+end process;
+end;
